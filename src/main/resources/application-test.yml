@@ -1,0 +1,32 @@
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/sdk_db?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+#    username: root
+#    password: 123456
+#    type: com.alibaba.druid.pool.DruidDataSource
+
+
+gmc4j:
+  url:
+    nodeos: http://silian.191381.com
+    keosd: http://192.168.0.130:8900
+  walletPw: PW5JfS795u9Y2dzU1HJW7449LwVfL6vjC27wKJtvt6bgHCCPEHYzU
+
+
+server:
+  port: 8099
+#  ssl:
+#    key-store: tszj12.keystore
+#    key-store-password: tszj888
+#    key-store-type: JKS
+#    key-alias: tszj
+
+contract:
+  eappcode: magiesupport
+  gameowner: magieboxdemo
+
+
+
+start:
+  investment: true

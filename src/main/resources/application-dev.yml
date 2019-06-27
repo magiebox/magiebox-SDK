@@ -1,0 +1,16 @@
+gmc4j:
+  url:
+    nodeos: http://silian.191381.com
+    keosd: http://192.168.0.130:8900
+  walletPw: PW5JfS795u9Y2dzU1HJW7449LwVfL6vjC27wKJtvt6bgHCCPEHYzU
+
+
+server:
+  port: 8910
+
+contract:
+  eappcode: magiesupport
+  gameowner: eapptokenapp
+
+start:
+  investment: false
