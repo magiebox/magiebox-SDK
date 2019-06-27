@@ -13,19 +13,19 @@ This SDK provides a secure login mechanism, based on EOS digital signature and S
 ```js
 <javascript> ...
 ```
-* Application of login function / 登录功能应用
+* login / 登录功能应用
 ```js
 <javascript> ...
 ```
-* Application of recharging function / 充值功能应用
+* recharge / 充值功能应用
 ```js
 <javascript> ...
 ```
-* Application of Transfer Function / 转账功能应用
+* Transfer / 转账功能应用
 ```js
 <javascript> ...
 ```
-* Application of the function of withdrawing money / 提币功能应用
+* withdraw / 提币功能应用
 ```js
 <javascript> ...
 ```
