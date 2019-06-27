@@ -22,7 +22,7 @@ public class AccountController extends BaseController {
     LockCoinsService lockCoinsService;
 
     @RequestMapping(value = "/forward", method = RequestMethod.POST)
-    public View forward(String from, String to, BigDecimal amount, String transactionId) {
+    public View forward(String to, BigDecimal amount, String transactionId) {
         String owner = getOwner();
         View view = new View();
         try {
@@ -43,7 +43,8 @@ public class AccountController extends BaseController {
     }
 
     @RequestMapping(value = "/withdraw", method = RequestMethod.POST)
-    public View withdraw(String owner, BigDecimal amount, String transactionId) {
+    public View withdraw(BigDecimal amount, String transactionId) {
+        String owner = getOwner();
         View view = new View();
         try {
             String result = accountService.withdraw(owner, amount, transactionId);
