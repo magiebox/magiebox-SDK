@@ -16,11 +16,6 @@ gmc4j:
 
 server:
   port: 8099
-#  ssl:
-#    key-store: tszj12.keystore
-#    key-store-password: tszj888
-#    key-store-type: JKS
-#    key-alias: tszj
 
 contract:
   eappcode: magiesupport
