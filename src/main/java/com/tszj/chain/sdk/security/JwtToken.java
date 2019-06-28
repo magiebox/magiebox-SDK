@@ -2,12 +2,7 @@ package com.tszj.chain.sdk.security;
 
 import org.apache.shiro.authc.HostAuthenticationToken;
 
-/**
- * 参照UsernamePasswordToken,用于扩展业务，由于rest api不需要rememberMe，已丢弃
- *
- * @author likai
- * @Date 2018/10/18
- */
+
 public class JwtToken implements HostAuthenticationToken {
 
   private String username;

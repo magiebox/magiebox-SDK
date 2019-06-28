@@ -45,6 +45,8 @@ public class LockCoinsServiceImpl implements LockCoinsService {
     @Override
     public void queryChainSaveLockCoins() {
 
+        // TODO
+
 //        while (true) {
 //            Integer maxId = investmentLogMapper.selectMaxId();
 //            Map<String, Object> paramMap = new HashMap<>();
