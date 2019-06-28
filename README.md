@@ -2,7 +2,7 @@
 
 Magie box-SDK is a system development tool for third-party projects to access Magie Box platform (http://box.191381.com). The tool aims to reduce the development threshold of block chain projects and make it easy for developers of centralized projects to develop block chain projects.
 
-magiebox-SDK 是第三方项目接入 Magie Box 平台（http://box.191381.com）的系统开发工具，该工具旨在降低区块链项目的开发门槛，使中心化项目的开发者也能轻松地开发区块链项目。
+magiebox-SDK 是第三方项目接入 Magie Box 平台的系统开发工具，该工具旨在降低区块链项目的开发门槛，使中心化项目的开发者也能轻松地开发区块链项目。
 
 This SDK provides a secure login mechanism, based on EOS digital signature and Shiro security framework technology, to provide security for system projects; at the same time, it provides safe and convenient token universal operation functions such as recharge, transfer, withdrawal of money, so that developers can focus on the business logic of their own projects.
 
@@ -13,19 +13,19 @@ This SDK provides a secure login mechanism, based on EOS digital signature and S
 ```js
 <javascript> ...
 ```
-* Application of login function / 登录功能应用
+* login / 登录功能应用
 ```js
 <javascript> ...
 ```
-* Application of recharging function / 充值功能应用
+* recharge / 充值功能应用
 ```js
 <javascript> ...
 ```
-* Application of Transfer Function / 转账功能应用
+* Transfer / 转账功能应用
 ```js
 <javascript> ...
 ```
-* Application of the function of withdrawing money / 提币功能应用
+* withdraw / 提币功能应用
 ```js
 <javascript> ...
 ```
