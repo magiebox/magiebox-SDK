@@ -9,7 +9,7 @@ This SDK provides a secure login mechanism, based on EOS digital signature and S
 本 SDK 提供安全的登录机制，基于 EOS 数字签名及 Shiro 安全框架技术，为系统项目提供安全保障；同时，为项目提供安全便利的充值、转账、提币等 token 通用操作功能，使开发者能够把精力聚焦在自己项目的业务逻辑上。
 
 
-## Get started quickly / 快速上手：
+## Getting Started / 快速上手：
 
 We provide a generic project template that you can use directly. Please check the src>main>resources>static>magieBox-frontend-sdk file in the root directory of the project. If you do not wish to use the templates we provide, please read on. Let's take the vue framework as an example.
 
