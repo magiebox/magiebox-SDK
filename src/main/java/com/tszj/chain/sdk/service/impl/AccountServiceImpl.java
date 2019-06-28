@@ -40,6 +40,8 @@ public class AccountServiceImpl implements AccountService {
         if (amount.compareTo( mesAmount) != 0)
             return resultMessage;
 
+        //TODO 数据层校验
+
         return "success";
     }
 
@@ -59,6 +61,7 @@ public class AccountServiceImpl implements AccountService {
         if (amount.compareTo( mesAmount) != 0)
             return resultMessage;
 
+        //TODO 数据层校验
 
       return "success";
     }

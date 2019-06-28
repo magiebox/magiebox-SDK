@@ -72,7 +72,6 @@ public class ShiroConfig {
     private Map<String, String> definitionMap() {
         Map<String, String> definitionMap = new HashMap<>();
         definitionMap.put("/login", "anon");
-        definitionMap.put("/system_login", "anon");
         definitionMap.put("/**", JWT_FILTER_NAME);
         return definitionMap;
     }
