@@ -28,7 +28,7 @@ We can also use vue-cli to initialize the project, the command is as follows (no
 > vue init webpack
 ```
 
-### Install blockchain plugin / 安装区块链插件
+### Install blockchain plugin / 安装区块链插件及加密算法
 
 We need to install the following blockchain plugin and encryption algorithm:Install EOSJS, install scatterjs-core, install scatterjs-plugin-eosjs, install sha256
 
